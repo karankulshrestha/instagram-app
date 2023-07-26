@@ -4,6 +4,7 @@ import 'package:instagram/responses/mobile_screen_layout.dart';
 import 'package:instagram/responses/responsive_layout_screen.dart';
 import 'package:instagram/responses/web_screen_layout.dart';
 import 'package:instagram/screens/login_screen.dart';
+import 'package:instagram/screens/signup_screen.dart';
 import 'package:instagram/utils/colors.dart';
 import 'firebase_options.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: mobileBackgroundColor,
       ),
-      home: LoginScreen(),
+      home: SignupScreen(),
     );
   }
 }
