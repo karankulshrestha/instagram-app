@@ -80,7 +80,7 @@ class AuthMethods {
     return res;
   }
 
-  String getUid() {
-    return FirebaseAuth.instance.currentUser!.uid;
+  Future<void> Signout() async {
+    await _auth.signOut();
   }
 }
