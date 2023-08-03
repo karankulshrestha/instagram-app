@@ -1,16 +1,40 @@
-# instagram
 
-A new Flutter project.
+![Logo](https://github.com/KaranKulshrestha/leetcode-solutions/assets/42493387/f58d8e13-4ef8-4685-97b5-2c81aac1eaaa)
 
-## Getting Started
+# Instagram Clone In Flutter
 
-This project is a starting point for a Flutter application.
+This is the simple Instagram Clone build using Flutter and Firebase.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Features
+
+- Authentication using Firebase Auth
+- Follow and Following
+- Post Uploading with description.
+- Like, Comment, Delete
+- Profile Upload
+- Search Other Users
+
+
+
+## Screenshots
+
+![App Screenshot](https://github.com/KaranKulshrestha/leetcode-solutions/assets/42493387/39a3026e-810d-4faa-bc5a-87033d8202f4)
+
+![App Screenshot](https://github.com/KaranKulshrestha/leetcode-solutions/assets/42493387/710b7941-7488-43f1-9d34-cfe7a6025508)
+
+![App Screenshot](https://github.com/KaranKulshrestha/leetcode-solutions/assets/42493387/bf6393b3-82b1-496b-85f8-a6c27b43ebb1)
+
+![App Screenshot](https://github.com/KaranKulshrestha/leetcode-solutions/assets/42493387/eb046173-779b-4eb7-ba2f-353cd25092e3)
+
+![App Screenshot](https://github.com/KaranKulshrestha/leetcode-solutions/assets/42493387/17d119c7-52ef-4910-a010-9079a5304810)
+
+![App Screenshot](https://github.com/KaranKulshrestha/leetcode-solutions/assets/42493387/e8a073f7-d3fe-4484-9682-b98ce94cd878)
+
+![App Screenshot](https://github.com/KaranKulshrestha/leetcode-solutions/assets/42493387/f7faae4f-0d0c-4933-9101-0780e6411a0d)
+
+
+
+
