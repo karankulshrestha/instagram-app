@@ -1,6 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram/providers/user_provider.dart';
+import 'package:instagram/screens/profile_screen.dart';
 import 'package:instagram/utils/colors.dart';
 import 'package:instagram/utils/global_variables.dart';
 import 'package:provider/provider.dart';
@@ -43,7 +45,8 @@ class _MobileScreenLayoutState extends State<MobileScreenLayout> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: PageView(
-        children: homeScreenItems,
+        children: homeScreenItems +
+            [ProfileScreen(uid: FirebaseAuth.instance.currentUser!.uid)],
         physics: NeverScrollableScrollPhysics(),
         controller: pageController,
         onPageChanged: onPageChanged,

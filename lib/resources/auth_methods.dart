@@ -79,4 +79,8 @@ class AuthMethods {
     }
     return res;
   }
+
+  String getUid() {
+    return FirebaseAuth.instance.currentUser!.uid;
+  }
 }

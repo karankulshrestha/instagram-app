@@ -5,6 +5,7 @@ import 'package:instagram/responses/mobile_screen_layout.dart';
 import 'package:instagram/responses/responsive_layout_screen.dart';
 import 'package:instagram/responses/web_screen_layout.dart';
 import 'package:instagram/screens/home_screen.dart';
+import 'package:instagram/screens/signup_screen.dart';
 import 'package:instagram/utils/colors.dart';
 import 'package:instagram/utils/utils.dart';
 import 'package:instagram/widgets/text_input_field.dart';
@@ -130,7 +131,10 @@ class _LoginScreenState extends State<LoginScreen> {
                     padding: const EdgeInsets.symmetric(vertical: 8),
                   ),
                   GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => SignupScreen()));
+                    },
                     child: Container(
                       child: const Text(
                         "Sign up.",
