@@ -2,7 +2,7 @@
 <img src="https://github.com/KaranKulshrestha/leetcode-solutions/assets/42493387/f58d8e13-4ef8-4685-97b5-2c81aac1eaaa.png" width="500" height="500" />
 </p>
 
-# Instagram Clone In Flutter
+# Basic Instagram Clone
 
 This is the simple Instagram Clone build using Flutter and Firebase.
 
